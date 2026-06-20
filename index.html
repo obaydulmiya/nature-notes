@@ -1,10 +1,224 @@
-<!DOCTYPE html>
+<title>Nature-Notes</title>
+│
+<index.html><!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>Nature & Notes by Obaydul</title>
- 
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Nature's Notes by Obaydul</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<!-- Navigation -->
+<nav>
+    <div class="logo">
+        Nature's Notes
+        <span>by Obaydul</span>
+    </div>
+
+    <div class="menu">
+        <a href="#">Home</a>
+        <a href="#gallery">Gallery</a>
+    </div>
+</nav>
+
+
+<!-- Hero Section -->
+<section class="hero">
+
+    <div class="content">
+
+        <h1>
+            Some moments<br>
+            captured by<br>
+            my camera
+        </h1>
+
+        <p>
+            Exploring the beauty of nature and capturing its best moments.
+        </p>
+
+        <a href="#gallery" class="gallery-btn">
+            View Gallery
+        </a>
+
+    </div>
+
+</section>
+
+
+<!-- Gallery Section -->
+<section id="gallery">
+
+<h2>My Nature Gallery</h2>
+
+<div class="gallery">
+ <img src="LMC_15 Jul 19_040.jpg" art="nature photo" width="800">
+<img src="LMC_23 Jul 19_010 (3).jpg" alt="Nature Photo" width="800">
+
+
+</div>
+
+</section>
+
+
+</body>
+</html>
+<style.css>*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+
+body{
+    font-family: Arial, sans-serif;
+}
+
+
+/* Navigation */
+
+nav{
+    position:absolute;
+    top:0;
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+    padding:30px 60px;
+    color:white;
+    z-index:10;
+}
+
+
+.logo{
+    font-size:30px;
+    font-weight:bold;
+}
+
+
+.logo span{
+    display:block;
+    font-size:18px;
+}
+
+
+.menu a{
+    color:white;
+    text-decoration:none;
+    margin-left:35px;
+    font-size:18px;
+}
+
+
+/* Hero Background */
+
+.hero{
+
+    height:100vh;
+
+    background:
+    linear-gradient(
+    rgba(0,0,0,0.35),
+    rgba(0,0,0,0.35)
+    ),
+    url("images/nature-bg.jpg");
+
+    background-size:cover;
+    background-position:center;
+
+    display:flex;
+    align-items:center;
+
+    padding-left:80px;
+
+    color:white;
+
+}
+
+
+/* Text */
+
+.content h1{
+
+    font-size:70px;
+    line-height:1.1;
+
+}
+
+
+.content p{
+
+    font-size:22px;
+    margin:25px 0;
+
+}
+
+
+/* Button */
+
+.gallery-btn{
+
+    display:inline-block;
+
+    background:#4caf50;
+
+    color:white;
+
+    padding:15px 35px;
+
+    border-radius:30px;
+
+    text-decoration:none;
+
+    font-size:20px;
+
+}
+
+
+/* Gallery */
+
+#gallery{
+
+    padding:50px;
+
+    text-align:center;
+
+}
+
+
+.gallery{
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:20px;
+
+}
+
+
+.gallery img{
+
+    width:100%;
+
+    height:300px;
+
+    object-fit:cover;
+
+    border-radius:15px;
+
+}
+│
+<images/>
+ <img src="LMC_15 Jul 19_040.jpg" art="nature photo" width="800">
+<img src="LMC_23 Jul 19_010 (3).jpg" alt="Nature Photo" width="800">
+
+
 <style>
 body{
   margin:0;
