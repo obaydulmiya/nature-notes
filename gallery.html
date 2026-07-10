@@ -1,48 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <style>
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background: #f5f5f5;
-}
-
-h1 {
-    text-align: center;
-    margin-top: 30px;
-}
-
-p {
-    text-align: center;
-}
-
-.gallery {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 20px;
-    padding: 20px;
-}
-
-.gallery img {
-    width: 100%;
-    height: 250px;
-    object-fit: cover;
-    border-radius: 12px;
-}
-</style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Photo Gallery | Nature's Notes by Obaydul</title>
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+        }
+
+        body{
+            font-family:Arial, sans-serif;
+            background:#f5f5f5;
+        }
+
+        h1{
+            text-align:center;
+            margin-top:40px;
+            font-size:38px;
+            color:#2e7d32;
+        }
+
+        p{
+            text-align:center;
+            color:#555;
+            margin:15px 0 30px;
+            font-size:18px;
+        }
+
+        .gallery{
+            width:90%;
+            max-width:1200px;
+            margin:auto;
+            display:grid;
+            grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+            gap:20px;
+            padding-bottom:40px;
+        }
+
+        .gallery img{
+            width:100%;
+            height:250px;
+            object-fit:cover;
+            border-radius:12px;
+            box-shadow:0 5px 15px rgba(0,0,0,.2);
+            transition:0.3s;
+            cursor:pointer;
+        }
+
+        .gallery img:hover{
+            transform:scale(1.05);
+        }
+    </style>
 </head>
+
 <body>
 
-    <h1>Some Moments Captured by My Camera</h1>
+<h1>Some Moments Captured by My Camera</h1>
 
-    <p>Welcome to my nature photography gallery.</p>
+<p>Welcome to my nature photography gallery.</p>
+
 <div class="gallery">
-    <img src="nature2.jpg" alt="Nature 2">
-    <img src="nature3.jpg" alt="Nature 3">
+
+    <img src="nature2.jpg" alt="Nature Photo 2">
+
+    <img src="nature3.jpg" alt="Nature Photo 3">
+
 </div>
+
 </body>
 </html>
