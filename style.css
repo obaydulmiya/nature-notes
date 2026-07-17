@@ -1,0 +1,84 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #e8f5e9, #ffffff);
+    color: #333;
+}
+
+/* Header */
+header {
+    background: #1b5e20;
+    text-align: center;
+    padding: 25px;
+}
+
+header h1 {
+    color: white;
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+/* Navigation */
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #90ee90;
+}
+
+/* Contact Section */
+.contact {
+    max-width: 700px;
+    margin: 70px auto;
+    background: white;
+    padding: 40px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+.contact h2 {
+    font-size: 36px;
+    color: #2e7d32;
+    margin-bottom: 20px;
+}
+
+.contact p {
+    font-size: 20px;
+    margin-bottom: 20px;
+    line-height: 1.8;
+}
+
+/* Button */
+.btn {
+    display: inline-block;
+    background: #2e7d32;
+    color: white;
+    padding: 14px 30px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #1b5e20;
+}
