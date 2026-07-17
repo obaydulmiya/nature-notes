@@ -128,3 +128,43 @@ footer {
     padding: 20px;
     margin-top: 40px;
 }
+/* Contact Page */
+
+.contact-page header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.contact-page nav {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-bottom: 20px;
+}
+
+.contact-page nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.contact-page nav a:hover {
+    color: #90ee90;
+}
+
+.contact-page main {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.contact-page h1 {
+    font-size: 42px;
+    color: white;
+}
+
+.contact-page p {
+    font-size: 20px;
+    color: white;
+}
