@@ -8,77 +8,123 @@
 /* Body */
 body {
     font-family: Arial, sans-serif;
-    background: linear-gradient(to bottom, #e8f5e9, #ffffff);
-    color: #333;
-}
-
-/* Header */
-header {
-    background: #1b5e20;
-    text-align: center;
-    padding: 25px;
-}
-
-header h1 {
-    color: white;
-    font-size: 40px;
-    margin-bottom: 15px;
+    background: #f5f7f2;
+    color: #222;
 }
 
 /* Navigation */
 nav {
-    display: flex;
-    justify-content: center;
-    gap: 30px;
+    background: #2f5d50;
+    padding: 15px;
+    text-align: center;
 }
 
 nav a {
     color: white;
     text-decoration: none;
+    margin: 0 20px;
     font-size: 20px;
     font-weight: bold;
     transition: 0.3s;
 }
 
 nav a:hover {
-    color: #90ee90;
+    color: #ffd700;
 }
 
-/* Contact Section */
+/* Header */
+header {
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+    padding: 180px 20px;
+}
+
+header h1 {
+    font-size: 60px;
+    margin-bottom: 15px;
+}
+
+header p {
+    font-size: 24px;
+}
+
+/* Container */
+.container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Post */
+.post {
+    background: white;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 12px;
+}
+
+/* Gallery */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 15px;
+}
+
+.gallery img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* Contact Page */
 .contact {
     max-width: 700px;
     margin: 70px auto;
-    background: white;
     padding: 40px;
-    border-radius: 15px;
+    background: white;
     text-align: center;
+    border-radius: 15px;
     box-shadow: 0 8px 20px rgba(0,0,0,0.2);
 }
 
 .contact h2 {
     font-size: 36px;
-    color: #2e7d32;
+    color: #2e8b57;
     margin-bottom: 20px;
 }
 
 .contact p {
     font-size: 20px;
-    margin-bottom: 20px;
     line-height: 1.8;
+    margin-bottom: 20px;
 }
 
 /* Button */
 .btn {
     display: inline-block;
-    background: #2e7d32;
+    padding: 12px 25px;
+    background: #2e8b57;
     color: white;
-    padding: 14px 30px;
-    border-radius: 8px;
     text-decoration: none;
-    font-size: 18px;
+    border-radius: 8px;
+    font-weight: bold;
     transition: 0.3s;
 }
 
 .btn:hover {
-    background: #1b5e20;
+    background: #256d46;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background: #2f5d50;
+    color: white;
+    padding: 20px;
+    margin-top: 40px;
 }
