@@ -139,9 +139,9 @@ footer {
     text-align: center;
     color: white;
 
-    padding: 120px 20px;
+    padding: 180px 20px;
+    padding-top: 0;
 }
-
 .contact-page h1 {
     font-size: 58px;
     color: white;
