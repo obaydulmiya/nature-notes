@@ -32,7 +32,7 @@ nav a:hover {
     color: #ffd700;
 }
 
-/* Header */
+//* Header */
 header {
     background-image: url("background.jpg");
     background-size: cover;
@@ -40,7 +40,8 @@ header {
     background-repeat: no-repeat;
     color: white;
     text-align: center;
-    padding: 180px 20px;
+    padding: 0;
+}
 }
 
 header h1 {
@@ -84,7 +85,7 @@ header p {
 /* Contact Page */
 .contact {
     max-width: 700px;
-    margin: 70px auto;
+    margin: 160px auto 80px;
     padding: 40px;
     background: white;
     text-align: center;
@@ -132,7 +133,8 @@ footer {
 
 .contact-page header {
     text-align: center;
-    padding: 20px 0;
+    padding: 0 0 140px;
+}
 }
 
 .contact-page nav {
