@@ -32,7 +32,7 @@ nav a:hover {
     color: #ffd700;
 }
 
-//* Header */
+/* Header */
 header {
     background-image: url("background.jpg");
     background-size: cover;
@@ -40,15 +40,13 @@ header {
     background-repeat: no-repeat;
     color: white;
     text-align: center;
-    padding: 0;
-}
+    padding: 180px 20px;
 }
 
 header h1 {
     font-size: 60px;
     margin-bottom: 15px;
 }
-
 header p {
     font-size: 24px;
 }
@@ -141,16 +139,7 @@ footer {
     text-align: center;
     color: white;
 
-    padding-top: 0;
-    padding-bottom: 120px;
-}
-
-.contact-page nav {
-    display: flex;
-    justify-content: center;
-    gap: 25px;
-    background: rgba(47, 93, 80, 0.9);
-    padding: 18px 0;
+    padding: 120px 20px;
 }
 
 .contact-page h1 {
@@ -163,8 +152,6 @@ footer {
 .contact-page > header p {
     color: white;
     font-size: 26px;
-}
-}
 }
 
 .contact-page nav {
@@ -189,12 +176,4 @@ footer {
 .contact-page main {
     text-align: center;
     padding: 40px 20px;
-}
-
-.contact-page h1 {
-    font-size: 42px;
-    color: white;
-}
-.contact-page > header p {
-    color: white;
 }
