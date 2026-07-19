@@ -85,7 +85,7 @@ header p {
 /* Contact Page */
 .contact {
     max-width: 700px;
-    margin: 160px auto 80px;
+    margin: -40px auto 60px;
     padding: 40px;
     background: white;
     text-align: center;
@@ -132,8 +132,38 @@ footer {
 /* Contact Page */
 
 .contact-page header {
+    background-image: linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35)),
+                      url("contact-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
     text-align: center;
-    padding: 0 0 140px;
+    color: white;
+
+    padding-top: 0;
+    padding-bottom: 120px;
+}
+
+.contact-page nav {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    background: rgba(47, 93, 80, 0.9);
+    padding: 18px 0;
+}
+
+.contact-page h1 {
+    font-size: 58px;
+    color: white;
+    margin-top: 70px;
+    margin-bottom: 10px;
+}
+
+.contact-page > header p {
+    color: white;
+    font-size: 26px;
+}
 }
 }
 
