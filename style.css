@@ -35,6 +35,9 @@ nav a {
     transition: 0.3s;
 }
 
+nav a :hover {
+    color: #ffd700;
+}
 
 /* Header */
 header {
