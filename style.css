@@ -40,7 +40,10 @@ header {
     background-repeat: no-repeat;
     color: white;
     text-align: center;
-    padding: 180px 20px;
+
+    padding: 165px 20px 180px;
+    margin-top: -15px;
+}
 }
 
 header h1 {
