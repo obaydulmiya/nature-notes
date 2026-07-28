@@ -35,7 +35,7 @@ nav a {
     transition: 0.3s;
 }
 
-nav a :hover {
+nav a:hover {
     color: #ffd700;
 }
 
@@ -194,4 +194,48 @@ footer {
 .contact-page main {
     text-align: center;
     padding: 40px 20px;
+}
+
+.gallery-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.gallery-item img {
+    display: block;
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    transition: transform 0.4s ease;
+}
+
+.gallery-item:hover img {
+    transform: scale(1.05);
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    background: linear-gradient(to top, rgba(0,0,0,0.8), transparent);
+    color: white;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.gallery-item:hover .overlay {
+    opacity: 1;
+}
+
+.overlay h3 {
+    margin-bottom: 8px;
+    font-size: 20px;
+}
+
+.overlay p {
+    font-size: 14px;
+    line-height: 1.5;
 }
